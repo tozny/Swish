@@ -1,7 +1,7 @@
 import Foundation
 import Nimble
 import Quick
-@testable import Swish
+@testable import ToznySwish
 
 func exampleRequest() -> URLRequest {
   return URLRequest(url: URL(string: "https://example.com")!)

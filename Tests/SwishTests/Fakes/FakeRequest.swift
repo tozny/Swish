@@ -1,5 +1,5 @@
 import Foundation
-@testable import Swish
+@testable import ToznySwish
 
 struct FakeRequest: Request, Equatable {
   typealias ResponseObject = String

@@ -1,7 +1,7 @@
 import Foundation
 import Nimble
 import Quick
-import Swish
+import ToznySwish
 
 struct User: Decodable {
   let name: String

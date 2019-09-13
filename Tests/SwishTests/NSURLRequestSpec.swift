@@ -1,7 +1,7 @@
 import Foundation
 import Nimble
 import Quick
-@testable import Swish
+@testable import ToznySwish
 
 class NSURLRequestSpec: QuickSpec {
   override func spec() {

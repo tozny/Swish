@@ -1,7 +1,7 @@
 import Foundation
 import Nimble
 import Quick
-import Swish
+import ToznySwish
 import Swoosh
 
 class MockClientSpec: QuickSpec {

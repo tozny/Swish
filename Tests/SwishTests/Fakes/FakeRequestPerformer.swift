@@ -1,5 +1,5 @@
 import Foundation
-@testable import Swish
+@testable import ToznySwish
 
 enum ResponseData {
   case data(Data)
