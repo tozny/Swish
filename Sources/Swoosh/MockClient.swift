@@ -1,4 +1,5 @@
 import Foundation
+import Swish
 
 public class MockClient: Client {
   private var mocks: [ObjectIdentifier: [RequestMatcher]] = [:]
