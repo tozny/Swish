@@ -1,4 +1,3 @@
-import Swish
 
 internal struct PredicateRequestMatcher<T: Request>: RequestMatcher {
   func match<S>(_ request: S) -> Result<S.ResponseObject, SwishError>? where S: Request {
