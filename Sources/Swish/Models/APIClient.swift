@@ -1,4 +1,5 @@
 import Foundation
+import Result
 
 public struct APIClient {
   private let requestPerformer: RequestPerformer

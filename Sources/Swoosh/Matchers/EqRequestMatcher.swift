@@ -1,4 +1,5 @@
 import Swish
+import Result
 
 internal struct EqRequestMatcher<T: Request>: RequestMatcher where T: Equatable {
   func match<S>(_ request: S) -> Result<S.ResponseObject, SwishError>? where S: Request {

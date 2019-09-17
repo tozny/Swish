@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Swish::Swish"
-               BuildableName = "Swish.framework"
-               BlueprintName = "Swish"
-               ReferencedContainer = "container:Swish.xcodeproj">
+               BlueprintIdentifier = "D45480561A9572F5009D7229"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-Mac"
+               ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Swish::Swoosh"
-               BuildableName = "Swoosh.framework"
-               BlueprintName = "Swoosh"
-               ReferencedContainer = "container:Swish.xcodeproj">
+               BlueprintIdentifier = "D45480661A9572F5009D7229"
+               BuildableName = "Result-MacTests.xctest"
+               BlueprintName = "Result-MacTests"
+               ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,13 +46,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Swish::SwishTests"
-               BuildableName = "SwishTests.xctest"
-               BlueprintName = "SwishTests"
-               ReferencedContainer = "container:Swish.xcodeproj">
+               BlueprintIdentifier = "D45480661A9572F5009D7229"
+               BuildableName = "Result-MacTests.xctest"
+               BlueprintName = "Result-MacTests"
+               ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D45480561A9572F5009D7229"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-Mac"
+            ReferencedContainer = "container:Result.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -69,10 +78,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Swish::Swish"
-            BuildableName = "Swish.framework"
-            BlueprintName = "Swish"
-            ReferencedContainer = "container:Swish.xcodeproj">
+            BlueprintIdentifier = "D45480561A9572F5009D7229"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-Mac"
+            ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,6 +93,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D45480561A9572F5009D7229"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-Mac"
+            ReferencedContainer = "container:Result.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

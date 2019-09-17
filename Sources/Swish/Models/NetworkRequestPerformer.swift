@@ -1,4 +1,5 @@
 import Foundation
+import Result
 
 public struct NetworkRequestPerformer: RequestPerformer {
   fileprivate let session: URLSession
