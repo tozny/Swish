@@ -1,4 +1,5 @@
 import Nimble
+import Result
 
 public func beVoid() -> MatcherFunc<Void> {
   return MatcherFunc { actualExpression, failureMessage in

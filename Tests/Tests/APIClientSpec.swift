@@ -1,6 +1,7 @@
 import Swish
 import Quick
 import Nimble
+import Result
 
 class APIClientSpec: QuickSpec {
   override func spec() {

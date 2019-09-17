@@ -1,19 +1,18 @@
 Pod::Spec.new do |spec|
-  spec.name = 'Swish'
-  spec.version = '3.0.0'
+  spec.name = 'ToznySwish'
+  spec.version = '5.0.0'
   spec.summary = 'Nothing but net(working)'
-  spec.homepage = 'https://github.com/thoughtbot/Swish'
+  spec.homepage = 'https://github.com/tozny/Swish'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.author = {
     'Gordon Fontenot' => 'gordon@thoughtbot.com',
     'Sid Raval' => 'sid@thoughtbot.com',
     'thoughtbot' => nil,
   }
-  spec.social_media_url = 'http://twitter.com/thoughtbot'
-  spec.source = { :git => 'https://github.com/thoughtbot/Swish.git', :tag => "v#{spec.version}" }
+  spec.source = { :git => 'https://github.com/tozny/Swish.git', :tag => "v#{spec.version}" }
   spec.source_files = 'Source/**/*.{h,swift}'
 
-  spec.dependency 'Result', '~> 4.0'
+  spec.dependency 'Result', '~> 4.1'
 
   spec.requires_arc = true
 
