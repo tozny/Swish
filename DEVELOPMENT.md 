@@ -1,0 +1,45 @@
+# Development
+
+## Building
+
+`tozny/Swish` is a fork of the `thoughtbot/Swish` (https://github.com/thoughtbot/Swish) networking library.
+
+The project is managed with the Carthage package manager (https://github.com/Carthage/Carthage). To build the project, run the carthage command below, swapping the options as preferred for the project:
+
+```bash
+carthage update --use-xcframeworks --platform iOS --cache-builds
+```
+
+
+## Releasing
+
+To release a new version, make sure that all added files are within the pod defined source folders.
+
+From ToznySwish.podscpec:
+
+```
+s.version = '5.0.1' // edit this to match release version
+```
+
+Verify that the pod can be compiled with:
+
+```
+pod lib lint
+```
+
+Tag the release then push to GitHub
+
+```
+git tag `5.0.1`
+git push --tags
+```
+
+More details about the requirements and how to submit to Cocoapods can be found here: https://guides.cocoapods.org/making/making-a-cocoapod.html, https://guides.cocoapods.org/making/getting-setup-with-trunk
+
+In brief, an account needs to be registered to begin a session for publishing on the local device, then running the command:
+
+```
+pod trunk push [NAME.podspec]
+```
+
+will lint the podspec then publish if the lint is successful.

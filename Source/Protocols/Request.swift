@@ -17,5 +17,6 @@ public extension Request where ResponseObject: Decodable {
 
 public extension Request where ResponseObject == EmptyResponse {
   func parse(_ data: Data) throws -> ResponseObject {
+    return 
   }
 }
